@@ -10,13 +10,10 @@ void print(int n , int i){
         print(n-1 , i);
     }
 }
-
-
 int main(){
     int n;
     cout << "Enter the value of n: ";
     cin >> n;
-
     print(n,1);
     return 0;
 }
