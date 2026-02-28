@@ -9,9 +9,7 @@ void name(int i , int n){
     else{
         return;
     }
-}
-
-
+}   
 int main(){
     name(1,20);
     return 0;
